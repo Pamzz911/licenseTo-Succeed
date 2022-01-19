@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html >
+<head>
+<html lang="en">
+  <title>I'm Precious to Jesus</title>
+ <meta http-equiv="Content-Type" content="text/html; "width=device-width, initial-scale=1.0" charset=utf-8"/>
+ <meta name="HandheldFriendly" content="true"/>
+ <meta name="MobileOptimized" content="320"/>
+ <meta name="viewport" content=  "width=device-width, initial-scale=1.0"/>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+    function scrollto(div)
+    {
+     $('html,body').animate(
+     {
+      scrollTop: $("#"+div).offset().top
+     },'slow');
+    }
+
+</script>
+</head>
+
+<body>
+
+    <div id = "wrapper">
+<div id = "main_container">
+<h1>I'm Precious To Jesus!</h1>
+
+<div id = "header">
+<header>
+<ul>
+<h2>
+    <div class="scrollmenu">
+        <a href = "#home"> Home</a>&nbsp
+        <a href = "#contact"> Contact Us</a>&nbsp
+        <a href = "#about"> AboutUs</a> &nbsp
+    </div>
+</h2>
+
+</header>
+</div>
+
+<div id = "home">
+ 
+        <div id ="current_column">
+            <p>
+            
+            
+            </p>
+        <img src="vuku.jpg" alt="" width = "150">
+            </div>
+<script type="text/javascript">
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+
+    </script>
+  </div>
+
+</div>
+
+       <div id = about>
+            <div id ="intro_column">
+            <img src="" alt="" width = "1150"/>
+            </div>
+            <h3> <i> About the campaign! </h3>
+           <p>
+          
+           </P
+            <h3><b></b>
+            </h3>
+            <p>
+
+       
+            </p>
+            </div>
+       </div>
+       
+       <div id = "contact">
+           <div id= "intro_column">
+           <img src="" alt="" width = "1500">
+           </div>
+           <h3> <i> Contact Us </h3>
+           <div id ="contact_column">
+               <h3> Enter Info</h3>
+           <form action="Home.html" method="POST">
+           <label for="name"><b>Name:</b></label> <input type ="text" name ="FirstName" placeholder ="Enter Name" required autofocus</><br>
+           <label for="email"><b>Email Adress:</b></label> <input type ="email" name ="Email" placeholder ="john.doe@gmail.com"required = "required"><br>
+           <label for="Phone"><b>Contact Number:</b></label> <input type ="tel" name ="Phone" placeholder ="0<>10"required</><br>
+           <label for="Query"><b>Enter your Query:</b></label>
+           <input type ="text" name ="Query" placeholder ="Max 200 words" required= "required"><br>
+           <input type = "submit" name = "Submit" />
+           </form>
+           </div>
+           <a href=“Mail:precious.jesus.org”></a>
+           </p>
+           </div>
+
+       
+      
+    </div>
+</div>
+</body>
+ <hr>
+  
+<div id = "footer">
+<footer>
+Copyright &copy;2021 OLIA - Our lives in Africa. All rights reserved.
+</footer>
+</div>
+</html>
